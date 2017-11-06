@@ -310,7 +310,7 @@ margin-right: 10px;
 
 .contact-us .cont{
     background:rgba(0,0,0,0.8); 
-    height: 100%;
+    height: auto;
     color: aliceblue;
     padding: 80;
 }
