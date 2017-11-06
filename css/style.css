@@ -300,13 +300,11 @@ margin-right: 10px;
 .contact-us{
     background: url(https://s-media-cache-ak0.pinimg.com/originals/80/90/04/8090041f9cfc5ee8dc33364f35ba259c.jpg) center fixed;
     background-size: cover;
-    height: 100%;
+    height: auto;
 }
 
 @media (min-width:1200px){
-    .contact-us{
-        height: 80%;
-    }
+
 }
 
 .contact-us .cont{
@@ -335,8 +333,10 @@ margin-right: 10px;
 @media (max-width:1200){
     .contact-us .cont textarea{
         width: 110px;
-        height: 2;
+        height: 70%;
     }
+    
+    
     
 
 }
@@ -354,14 +354,15 @@ margin-right: 10px;
 .footer ul{
   list-style-type: none;
     float: left;
-    margin-left: 100px;
+    
+    display: block;
     
 } 
   
 .footer li {
    
     float: left;
-    margin-right: 15px;
+    margin-left: 15px;
     opacity: 0.5;
 }
 
@@ -377,5 +378,6 @@ opacity: 1;
 .footer .owner {
     color: steelblue;
 }
+
 
 
