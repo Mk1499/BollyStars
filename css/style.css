@@ -55,7 +55,7 @@ background-color: rgba(3,3,3,0.5);
     font-size: 100;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 10px;
-    color: red;
+    color: aliceblue;
 }
 
 .first .slider .tit{
@@ -334,7 +334,7 @@ margin-right: 10px;
 @media (max-width:1200){
     .contact-us .cont textarea{
         width: 110px;
-        height: auto;
+        height: 50px;
     }
     
     
