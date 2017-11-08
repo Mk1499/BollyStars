@@ -126,7 +126,15 @@ $("body").animate({scrollTop:$("body").height()},1500) ;
         }
     }) ;
     
-    
+    $(".back").click(function(){
+        
+         $("#katrina-show").hide("slow");
+             $("#srk-show").hide("slow");
+             $("#HRX-show").hide("slow");
+             $("#salman-show").hide("slow");
+             $("#aamer-show").hide("slow");
+             $("#depika-show").hide("slow");
+    })
     
     
 });
